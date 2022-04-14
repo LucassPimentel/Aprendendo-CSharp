@@ -36,6 +36,8 @@
 Em caso de operações matemáticas entre double ou float com int's, normalmente é adicionado o
 '.0' em números double que não possuam decimais, pois quando não adicionado os decimais podem ser ignorados e transformados em int's.
 
+## TIPOS BOOLEANOS:
+ - bool = Armazena um valor true ou false.
 
 ## CONVERSÃO: 
   Para realizar uma conversão é necessário adicionar o tipo na frente da variável a qual se quer converter. 
