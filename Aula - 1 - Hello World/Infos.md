@@ -1,8 +1,10 @@
 # Aula - 1 - Familiarizando com o ambiente e escrevendo a primeira linha de código
 
 ### OBS's:
- - É case sensitive!
- - Precisa ter o fechamento com o ';'
+ - É case sensitive!.
+ - Precisa ter o fechamento com o ';'.
+ - Aspas duplas ("") é utilizada para textos, não é permitido para caracteres únicos.
+ - Aspas simples ('') é utilizada para caracteres únicos.
 
 
 ### OBS's:
