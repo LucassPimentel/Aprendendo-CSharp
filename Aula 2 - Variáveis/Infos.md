@@ -18,7 +18,20 @@
 
  - Double = Número decimal preciso, mais utilizado no C#.
 
+## TIPOS CARACTERES E TEXTOS:
 
+- Char = Variável que aceita somente um caractere (utiliza aspas simples, não pode ser vazio, nem que seja preenchido somente por um espaço).
+
+- String = Variável de texto (utilizada aspas duplas, pode ser vazio). <br/>
+  OBS: Quando adicionado o '@' antes do texto da variável, ele passa a considerar tudo que está dentro como válido, inclusive os espaços. <br/>
+  Exemplo da sintaxe: 
+  '`string listaCursos =
+  
+   @-- Javascript
+    -- SQL
+    -- Python`'
+   A resposta será uma lista exatamente como foi escrita
+  
 ### OBS's: 
 Em caso de operações matemáticas entre double ou float com int's, normalmente é adicionado o
 '.0' em números double que não possuam decimais, pois quando não adicionado os decimais podem ser ignorados e transformados em int's.
