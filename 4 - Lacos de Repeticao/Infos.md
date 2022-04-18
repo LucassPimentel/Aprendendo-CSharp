@@ -1,0 +1,1 @@
+# Aula - 4 - Laços de Repetição	### WhileSintaxe: <br/> `while ('condição') {bloco de código}`### ForSintaxe: <br/>`for(inicialização; condição; incrementação) {bloco de código}`
