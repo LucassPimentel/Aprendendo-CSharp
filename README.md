@@ -5,6 +5,9 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
 # Definições Importantes
 
 
+## Utilização do 'this'
+  É utilizado quando há nomes de atributos e parâmetros iguais. O this sempre vai referenciar o valor do atributo e não do parâmetro.
+
 ## Classes
   As classes são por exemplo, plantas de casas, pois a partir de uma planta de uma casa, pode ser construídas diversas casas, com diferentes mobílias, ou seja, é um gabarito para a criação de um novo objeto.
   
