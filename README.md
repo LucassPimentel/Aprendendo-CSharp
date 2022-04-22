@@ -4,10 +4,6 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
 
 # Definições Importantes
 
-
-## Utilização do 'this'
-  É utilizado quando há nomes de atributos e parâmetros iguais. O this sempre vai referenciar o valor do atributo e não do parâmetro.
-
 ## Classes
   As classes são por exemplo, plantas de casas, pois a partir de uma planta de uma casa, pode ser construídas diversas casas, com diferentes mobílias, ou seja, é um gabarito para a criação de um novo objeto.
   
@@ -24,10 +20,17 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
   É um método de mesmo nome da classe, que é executado toda vez que se instancia um objeto de determinada classe.
   
 ## Encapsulamento 
-  Restrige o acesso das informações pertencentes a classes, tornando-as privadas.
+  Restrige o acesso das informações pertencentes a classes, tornando-as publicas, privadas ou protegidas.
+  Nota: 
+  private - apenas visível dentro da classe; 
+  protected - visível dentro da classe e também para as filhas, repare também que protected é relacionado com a herança. 
+  public - visível em todo lugar; 
   
 ## Polimorfismo
   É basicamente a capacidade das classes de invocar métodos 'semelhantes' mas com comportamentos diferentes, ou seja, a utilização 
   de um método em diferentes classes e realizando diferentes tarefas. A utilização requer as palavras reservadas 'virtual', que 
   especifica ao C# que aquele método poderá ser sobrescrevido (sofrer alterações), e o 'override', que especifica que aquele método está
   sobrescrevendo o padrão.
+  
+  ## Utilização do 'this'
+  É utilizado quando há nomes de atributos e parâmetros iguais. O this sempre vai referenciar o valor do atributo e não do parâmetro.
