@@ -31,6 +31,10 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
   de um método em diferentes classes e realizando diferentes tarefas. A utilização requer as palavras reservadas 'virtual', que 
   especifica ao C# que aquele método poderá ser sobrescrevido (sofrer alterações), e o 'override', que especifica que aquele método está
   sobrescrevendo o padrão.
-  
-  ## Utilização do 'this'
+ 
+## Utilização do 'this'
   É utilizado quando há nomes de atributos e parâmetros iguais. O this sempre vai referenciar o valor do atributo e não do parâmetro.
+  
+## Abstração
+  É uma classe que pode conter métodos obrigatórios para todas as classes que a herdarem, também é possível a criação de métodos abstrados, que acaba tornando obrigatória a sobrescrita na criação de uma classe que herda a classe abstrata.
+  Uma classe abstrata não pode ser instanciada.
