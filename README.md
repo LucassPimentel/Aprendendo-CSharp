@@ -25,3 +25,9 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
   
 ## Encapsulamento 
   Restrige o acesso das informações pertencentes a classes, tornando-as privadas.
+  
+## Polimorfismo
+  É basicamente a capacidade das classes de invocar métodos 'semelhantes' mas com comportamentos diferentes, ou seja, a utilização 
+  de um método em diferentes classes e realizando diferentes tarefas. A utilização requer as palavras reservadas 'virtual', que 
+  especifica ao C# que aquele método poderá ser sobrescrevido (sofrer alterações), e o 'override', que especifica que aquele método está
+  sobrescrevendo o padrão.
