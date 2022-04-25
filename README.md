@@ -38,3 +38,6 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
 ## Abstração
   É uma classe que pode conter métodos obrigatórios para todas as classes que a herdarem, também é possível a criação de métodos abstrados, que acaba tornando obrigatória a sobrescrita na criação de uma classe que herda a classe abstrata.
   Uma classe abstrata não pode ser instanciada.
+
+## Interface
+  É utilizada, geralmente, para criar métodos obrigatórios, e são por padrão abstratos e públicos, mas esses métodos não tem corpo, regra, dentro da interface, somente a assinatura, o corpo é feito na classe concreta que a implementa. Uma classe pode implementar várias interfaces. Todas as interfaces, por convenção, devem iniciar o nome com I.
