@@ -25,6 +25,7 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
   private - apenas visível dentro da classe; 
   protected - visível dentro da classe e também para as filhas, repare também que protected é relacionado com a herança. 
   public - visível em todo lugar; 
+  internal - visível somente dentro do projeto pertencente.
   
 ## Polimorfismo
   É basicamente a capacidade das classes de invocar métodos 'semelhantes' mas com comportamentos diferentes, ou seja, a utilização 
