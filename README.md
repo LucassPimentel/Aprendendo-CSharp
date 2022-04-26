@@ -22,10 +22,11 @@ Aprendendo C# através dos cursos da Alura, práticas e pesquisas.
 ## Encapsulamento 
   Restrige o acesso das informações pertencentes a classes, tornando-as publicas, privadas ou protegidas.
   Nota: 
-  private - apenas visível dentro da classe; 
-  protected - visível dentro da classe e também para as filhas, repare também que protected é relacionado com a herança. 
-  public - visível em todo lugar; 
-  internal - visível somente dentro do projeto pertencente.
+   - private - apenas visível dentro da classe; 
+   - protected - visível dentro da classe e também para as filhas, repare também que protected é relacionado com a herança. 
+   - public - visível em todo lugar. 
+   - internal - visível somente dentro do projeto pertencente.
+   - internal protected - visível somente dentro do projeto pertencente e das classes derivadas.
   
 ## Polimorfismo
   É basicamente a capacidade das classes de invocar métodos 'semelhantes' mas com comportamentos diferentes, ou seja, a utilização 
