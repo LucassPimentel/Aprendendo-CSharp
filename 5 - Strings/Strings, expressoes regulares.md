@@ -11,7 +11,7 @@ Método usado para verificar se um valor é nulo ou vazio, retorna um valor bool
 Exemplo:</br>
 `string.IsNullOrEmpty(nomeDaVarDesejada);`
 ### Remove
-Método para remover de um índice até outro.
+Método para remover de um índice até outro..
 ### StartsWith, EndsWith, Contains
 O método StartsWith verifica se determinada string começa com uma letra/palavra e retorna um booleano. </br>
 O endsWith a mesma coisa, só que verifica se determinada string é finalizada com uma letra/palavra. </br>
