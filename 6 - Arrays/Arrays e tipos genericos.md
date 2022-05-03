@@ -5,7 +5,7 @@ São coleções de dados com estruturas indexadas, ou seja, dados podem ser aces
 a partir de seu índice. Podem ser iterados através de laços de repetições e com 
 importantes propriedades, como a '.Length'. </br>
 Sintaxe: </br>
-`<tipoDeDado>[] <nomeDoArray> = new <tipoDeDado>[] {<dados>};`
+`<tipoDeDado>[] <nomeDoArray> = new <tipoDeDado>[] {<dados>};` </br>
 Exemplo:</br>
 `int[] arrs = new int[]
   {
@@ -18,12 +18,12 @@ pelo próprio programador, o que pode ser verboso e até complexo.
 Método que executa um bloco de instruções para cada elemento em um array.
 *OBS:* Basicamente a mesma coisa do for, porém mais simplificado.</br>
 Exemplo e sintaxe: </br>
-*Declarando o novo array e atribuindo valores*
+*Declarando o novo array e atribuindo valores* </br>
 `int[] numeros = new int[] 
 {
 1,2,3
-}`
-*Executando o foreach*
+}`</br>
+*Executando o foreach*</br>
 `foreach(int numero in numeros)
 {
 Console.WriteLine(numero);
@@ -38,12 +38,11 @@ na chamada do método na Main, pode-se usar diversos valores sem se preocupar em
 adicionar mais argumentos na construção do método.</br>
 Exemplo e sintaxe: </br>
 `static int SomarVarios(params int[] numeros)
-int acumulador = 0;
-foreach(int numero in numeros) 
-{
-acumulador += numero;
-}
-`
+	int acumulador = 0;
+	foreach(int numero in numeros) 
+	{
+	acumulador += numero;
+	}`</br>
 *Exemplo da chamada do método* </br>
 `SomarVarios(5,2,4,5);`
 
